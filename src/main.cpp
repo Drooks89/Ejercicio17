@@ -2,7 +2,7 @@
 
 
 void setup() {
-  Serial.begin(9600);  // Inicializa la comunicación serial a 9600 baudios
+  Serial.begin(9600);  
 
   int numero, unidades, decenas, centenas, millar;
   
@@ -124,9 +124,9 @@ void setup() {
       break;
   }
 
-  Serial.println();  // Imprime una nueva línea
+  Serial.println();  
 }
 
 void loop() {
-  // El bucle loop() no hace nada en este ejemplo
+  
 }
